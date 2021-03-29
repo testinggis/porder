@@ -3,17 +3,23 @@ site_description: porder-Simple CLI for Planet ordersV2 API
 site_author: Samapriya Roy
 site_url: https://github.com/samapriya
 
+site_name: porder docs
+site_description: porder-Simple CLI for Planet ordersV2 API
+
+site_author: Samapriya Roy
+site_url: https://github.com/samapriya
+
 # Repository
-repo_name: Github Samapriya
-repo_url: https://github.com/samapriya/porder
+repo_name: porder
+repo_url: https://github.com/tyson-swetnam/porder
 
 # Copyright
 copyright: 'Copyright &copy; 2021 - 2022 Samapriya Roy'
 
+
 # Configuration
 theme:
-  name: null
-  custom_dir: material
+  name: 'material'
 
   # 404 page
   static_templates:
@@ -27,8 +33,8 @@ theme:
   language: en
   palette:
     scheme: default
-    primary: blue
-    accent: pink
+    primary: red
+    accent: blue
   font:
     text: Google Sans
     code: Regular
@@ -47,8 +53,6 @@ extra:
       link: https://twitter.com/samapriyaroy
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/samapriya
-
-
 
 # Extensions
 markdown_extensions:
