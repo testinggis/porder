@@ -27,7 +27,7 @@ porder idlist --input "Path to geojson file" --start "YYYY-MM-DD" --end "YYYY-MM
 
 </b>
 
-Adding time to search parameters: The search tool now allows the user to pass Hours , Minutes and seconds and utilizes the local timezone on the users computer to search. This including the format HH:MM:SS seperated from yyyy-mm-dd by T. An example would be the following, while noting that passing time is purely optional and you can still search by simply passing YYYY-MM-DD.
+The search tool now allows the user to pass Hours , Minutes and seconds and utilizes the local timezone on the users computer to search. This including the format HH:MM:SS seperated from yyyy-mm-dd by T. An example would be the following, while noting that passing time is purely optional and you can still search by simply passing YYYY-MM-DD.
 
 ```
 porder idlist --input "Path to geojson file" --start "yyyy-mm-ddTHH:MM:SS" --end "yyyy-mm-ddTHH:MM:SS" --item "PSScene4Band" --asset "analytic" --outfile "Path to idlist.csv" --filters range:clear_percent:55:100 --number 20
